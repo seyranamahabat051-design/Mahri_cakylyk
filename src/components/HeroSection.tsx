@@ -3,15 +3,13 @@ import { motion } from 'motion/react';
 import { CalendarPlus, Volume2, VolumeX } from 'lucide-react';
 import { RoyalDivider, RoyalMonogramCrest, TurkmenGolCorner } from './RoyalOrnament';
 
-import heroRoyalImage from '../assets/images/ahal_toy_mekany_royal_1795453901531.jpg';
-
 interface HeroSectionProps {
   onSaveDate: () => void;
   isMusicPlaying: boolean;
   onToggleMusic: () => void;
 }
 
-const HERO_IMAGE_PATH = heroRoyalImage;
+const HERO_IMAGE_PATH = import.meta.env.BASE_URL + 'src/assets/images/ahal_toy_mekany_royal_1795453901531.jpg';
 
 export function HeroSection({
   onSaveDate,

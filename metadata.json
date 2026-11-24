@@ -2,7 +2,5 @@
   "name": "Serdar & Mähri — Bagt Toýy",
   "description": "Serdar & Mähri Döwletowlar maşgalasynyň bagt toýy · 11.12.2026ý. · Büzmeýin, Ahal toý mekany",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Check, Copy, MapPin } from 'lucide-react';
 import { RoyalDivider, RoyalMonogramCrest, TurkmenGolCorner } from './RoyalOrnament';
-import venueBanquetImage from '../assets/images/venue_ahal_banquet_1795453027921.jpg';
 
-const VENUE_IMAGE_PATH = venueBanquetImage;
+const VENUE_IMAGE_PATH = import.meta.env.BASE_URL + 'src/assets/images/venue_ahal_banquet_1795453027921.jpg';
 const VENUE_ADDRESS = 'Büzmeýin, Ahal toý mekany';
 const MAPS_URL =
   'https://www.google.com/maps/search/?api=1&query=B%C3%BCzme%C3%BDin+Ahal+toy+mekany+Ashgabat';

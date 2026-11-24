@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { RoyalDivider, RoyalMonogramCrest } from './RoyalOrnament';
-import ringsSilkImage from '../assets/images/royal_silk_rings_1795453026309.jpg';
 
-const RINGS_IMAGE_PATH = ringsSilkImage;
+const RINGS_IMAGE_PATH = import.meta.env.BASE_URL + 'src/assets/images/royal_silk_rings_1795453026309.jpg';
 
 interface ScheduleStep {
   number: string;
