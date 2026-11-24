@@ -1,5 +1,4 @@
-const WEDDING_TRACK_URL =
-  '/assets/aistudio/1724159501_mad-nazarov-jeren-halnazarowa-my-love_1d983b14.mp3';
+const WEDDING_TRACK_URL = `${import.meta.env.BASE_URL}assets/aistudio/1724159501_mad-nazarov-jeren-halnazarowa-my-love_1d983b14.mp3`;
 
 class RoyalAudioEngine {
   private audio: HTMLAudioElement | null = null;
